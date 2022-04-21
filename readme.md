@@ -42,7 +42,7 @@ Uso: `python test_connection.py [-h] [-d DELAY] [-i INTERVAL] [-t THRESHOLD] [-a
   Umbral mímimo de exito para considerar la conexion activa. Valores permitidos desde 0.2 hasta 1.0. Por defecto: 0.8  
 
   *-a ACTION, --action ACTION*  
-  Accion a realizar si la conexion falla. Use comillas si hay espacios. Por defecto: echo EL SISTEMA REMOTO NO ESTA EN LINEA!!  
+  Accion a realizar si la conexion falla. Use comillas si hay espacios. Por defecto: `echo EL SISTEMA REMOTO NO ESTA EN LINEA!!`  
 
   *-e EXECUTION_TIME, --execution-time EXECUTION_TIME*  
   Tiempo maximo de ejecucion en minutos, pasados los cuales el programa finalizara. Si no se especifica o se
